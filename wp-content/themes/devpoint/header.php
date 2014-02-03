@@ -11,7 +11,7 @@
 ?>
 <?php
 session_start();
-require_once("/twitteroauth/twitteroauth/twitteroauth.php"); //Path to twitteroauth library
+require_once("twitteroauth/twitteroauth/twitteroauth.php"); //Path to twitteroauth library
  
 $twitteruser = "kickcontent";
 $notweets = 3;
